@@ -1,8 +1,6 @@
-def add(a, b):
+def adder(a, b):
     return a+b
 
-a = int(input())
-b = int(input())
+if __name__ == '__main__':
+    print(adder(3,4))
 
-sum = add(a, b)
-print(sum)
